@@ -3,7 +3,7 @@
 
 Num to words
 ============
-This module allows you to convert invoice amount to text. you can choice the language and currency from account setting.
+This module allows you to convert invoice amount to text. you can choose the language and currency from account setting.
 
 
 Getting Started

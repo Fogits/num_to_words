@@ -50,9 +50,4 @@ class AccountConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'
 
     text_amount_language_currency = fields.Selection(related="company_id.text_amount_language_currency",
-                                                     string='language_currency', readonly=False)
-
-    @api.onchange('text_amount_language_currency')
-    def save_text_amount_language_currency(self):
-        if self.text_amount_language_currency:
-            self.company_id.text_amount_language_currency = self.text_amount_language_currency
+                                                     string='language_currency')

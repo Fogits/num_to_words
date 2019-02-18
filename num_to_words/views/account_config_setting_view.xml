@@ -9,12 +9,12 @@
                     <h2>Text amount</h2>
                     <div class="row mt16 o_settings_container">
                         <div class="col-xs-12 col-md-6 o_setting_box">
-                            <div class="o_setting_left_pane"/>
                             <div class="o_setting_right_pane">
+                                <label string="Amount to text"/>
                                 <div class="content-group">
                                     <div class="row mt16">
-                                        <label for="text_amount_language_currency" string="Language / currency" class="col-lg-3 o_light_label"/>
-                                        <field name="text_amount_language_currency" readonly="0" widget="selection"/>
+                                        <label string="language/currency" class="col-md-3 o_light_label"/>
+                                        <field name="text_amount_language_currency" widget="selection"/>
                                     </div>
                                 </div>
                             </div>
