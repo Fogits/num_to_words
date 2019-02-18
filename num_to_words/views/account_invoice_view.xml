@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <!-- Inherit Form View to Modify it -->
     <record id="add_text_amount_to_invoice_form" model="ir.ui.view">
         <field name="name">add.text.amount.to.invoice.form</field>
         <field name="model">account.invoice</field>

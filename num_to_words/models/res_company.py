@@ -47,7 +47,7 @@ class ResCompany(models.Model):
 
 
 class AccountConfigSettings(models.TransientModel):
-    _inherit = 'res.config.settings'
+    _inherit = 'account.config.settings'
 
     text_amount_language_currency = fields.Selection(related="company_id.text_amount_language_currency",
                                                      string='language_currency')
