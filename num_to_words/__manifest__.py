@@ -4,6 +4,8 @@
     'version': '10.0',
     'author': "Fogits Solutions",
     'website': "https://www.fogits.com/",
+    'summary': """
+    This module allows you to convert number to words """,
     'description': """
         Convert invoice amount to text 
     """,
