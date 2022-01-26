@@ -13,8 +13,8 @@
     'category': 'Accounting',
     'depends': ['base_setup', 'account'],
     'data': [
-        'views/account_invoice_view.xml',
-        'views/account_invoice_report.xml',
+        'views/account_move_view.xml',
+        'views/account_move_report.xml',
         'views/account_config_setting_view.xml',
     ]
 }
