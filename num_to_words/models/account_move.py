@@ -16,7 +16,7 @@ class AccountMove(models.Model):
             amount_d = int(round(amount_d * 1000,2))
             result1 = num2words(amount_i,lang=self.company_id.text_amount_language_currency)
             result2=num2words(amount_d,lang=self.company_id.text_amount_language_currency)
-            self.text_amount = '%(result1)s %(currency_unit)s %(result2)s %(currency_subunit)s' % {
+            self.text_amount = '%(result1)s %(currency_unit)s, %(result2)s %(currency_subunit)s' % {
                 'result1': result1,
                 'result2': result2,
                 'currency_unit':  self.currency_id.currency_unit_label,
